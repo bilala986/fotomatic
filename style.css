@@ -1,0 +1,898 @@
+html {
+    font-size: 16px;
+}
+
+/********************************* HEADER - MOBILE ***************************************/
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    
+    .nav-pic {
+        display: block;
+    }
+    
+    .nav-text {
+        display: none;
+    }
+    
+    .laptop {
+        display: none;
+    }
+    
+    header {
+        height: 48px;
+        background-color: #fafafa;
+    }
+
+    header h2 {
+        display: none;
+    }
+
+    header .nav-text {
+        display: none;
+    }
+
+    header nav .nav-pic li {
+        display: inline-block;
+        padding: 10px 10px 10px 30px;
+    }
+
+    header nav .nav-pic li img {
+        width: 25px;
+    }
+
+    .join-button-nav {
+        background-color: #9DC20B;
+        border-radius: 4px;
+        width: 65px;
+        float: right;
+        margin: 3px 20px 0px 0px;
+    }
+
+    .join-button-nav h4 {
+        color: white;
+        text-align: center;
+        padding: 3px 8px 3px 0px;
+    }
+
+    .join-button-nav1 {
+        display: none;
+    }
+}
+
+
+/************************* HEADER - TABLET *************************************/
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    header .nav-pic {
+        display: none;
+    }
+    
+    header nav .laptop {
+        display: none;
+    }
+    
+    header .nav-text {
+        display: block;
+    }
+    
+    header {
+        height: 85px;
+        background-color: #fafafa;
+    }
+
+    header h2 {
+        display: block;
+        font-family: "Roboto Mono";
+        margin-left: 30px;
+        padding-top: 30px;
+    }
+
+    header h2 a {
+        color: #4A4A4A;
+        font-size: 24px;
+        text-decoration: none;
+    }
+
+    header nav {
+        float: right;
+    }
+
+    header nav .nav-text {
+        margin-top: -50px;
+    }
+
+    header nav .nav-text .text {
+        font-family: Roboto;
+        line-height: 1.6;
+        display: inline-block;
+        padding: 30px 10px 30px 30px;
+    }
+
+    header nav .nav-text li a {
+        font-size: 16px;
+        color: #4A4A4A;
+        text-decoration: none;
+    }
+
+    header nav img {
+        width: 20px;
+        margin-right: 30px;
+    }
+    
+    header nav .nav-pic .join-button-nav {
+        display: none;
+    }
+    
+    header nav .nav-text .join-button-nav1 {
+        display: inline-block;
+        background-color: #9DC20B;
+        margin-right: 20px;
+        border-radius: 4px;
+        width: 65px;
+    }
+    
+    header nav .nav-text .join-button-nav1 h4 {
+        color: white;
+        padding: 3px 8px;
+    }
+}
+
+/****************************** HEADER - DESKTOP ***************************************/
+
+@media only screen and (min-width: 1024px) {
+    
+    .nav-pic {
+        display: none;
+    }
+    
+    .nav-text {
+        display: none;
+    }
+    
+    .laptop {
+        display: block;
+    }
+    
+    header {
+        height: 85px;
+        background-color: #fafafa;
+    }
+
+    header h2 {
+        font-family: "Roboto Mono";
+        margin-left: 30px;
+        padding-top: 30px;
+    }
+
+    header h2 a {
+        color: #4A4A4A;
+        font-size: 24px;
+        text-decoration: none;
+    }
+
+    header nav {
+        float: right;
+    }
+
+    header nav .laptop {
+        margin-top: -50px;
+    }
+
+    header nav .laptop li {
+        font-family: Roboto;
+        line-height: 1.6;
+        display: inline-block;
+        padding: 30px 10px 30px 30px;
+    }
+
+    header nav .laptop li a {
+        font-size: 16px;
+        color: #4A4A4A;
+        text-decoration: none;
+    }
+
+    header img {
+        width: 20px;
+        margin-right: 30px;
+    }
+
+}
+
+
+/**************************** MAIN 1 - MOBILE **************************************/
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    .main1 {
+        background-image: url(images/banner-landingpage.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .main1 .format-camera h3 {
+        font-family: Damion;
+        color: white;
+        font-size: 30px;
+        line-height: 1.4;
+        letter-spacing: 4px;
+    }
+
+    .main1 .format-camera h1 {
+        color: white;
+        font-size: 40px;
+        font-weight: normal;
+        font-family: Rubik;
+        line-height: 1.4;
+        margin-bottom: 12px;
+    }
+    
+    .banner-text {
+        display: none;
+    }
+    
+    .join-button {
+        display: none;
+    }
+}
+
+/**************************** MAIN 1 - TABLET ***********************************/
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .main1 {
+        background-image: url(images/banner-landingpage.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .main1 .format-camera h3 {
+        font-family: Damion;
+        color: white;
+        font-size: 30px;
+        line-height: 1.4;
+        letter-spacing: 4px;
+    }
+
+    .main1 .format-camera h1 {
+        color: white;
+        font-size: 40px;
+        font-weight: normal;
+        font-family: Rubik;
+        line-height: 1.4;
+        margin-bottom: 12px;
+    }
+    
+     .banner-text {
+        display: none;
+    }
+    
+    .join-button {
+        display: none;
+    }
+}
+
+/************************** MAIN 1 - DESKTOP ***************************************/
+
+@media only screen and (min-width: 1024px) {
+    
+    .main1 {
+        background-image: url(images/banner-landingpage.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 90%;
+        height: 666px;
+        margin: 0 auto;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .main1 div.format-camera {
+        background-color: #9DC20A;
+        width: 40%;
+        height: 400px;
+        margin-left: 100px;
+    }
+
+    .main1 .format-camera h3 {
+        font-family: Damion;
+        text-align: center;
+        color: white;
+        margin-top: 32px;
+        font-size: 35px;
+        line-height: 1.4;
+        letter-spacing: 4px;
+    }
+
+    .main1 .format-camera h1 {
+        color: white;
+        font-size: 50px;
+        font-family: Rubik;
+        line-height: 1.4;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    .main1 .format-camera p {
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-family: Roboto;
+        line-height: 1.4;
+    }
+
+    .main1 .format-camera .join-button {
+        background-color: #4A4A4A;
+        width: 408px;
+        border-radius: 4px;
+        margin: 26px 80px 56px 80px;
+    }
+
+    .main1 .format-camera .join-button h4 {
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-family: Roboto;
+        line-height: 1.4;
+        padding: 32px; /*this gives a height of 64px*/
+    }
+
+}
+
+
+/********************************* MAIN 2 - MOBILE *************************************/
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    .main2 {
+        width: 100%;
+        margin-top: 1rem;
+        background-color: #fafafa;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* This will center the image horizontally */
+    }
+
+    .main2 .feature1 {
+        margin-top: 2rem;
+        width: 95%;
+        margin-bottom: 20px;
+    }
+
+    .main2 h2 {
+        text-align: center;
+        color: #4A4A4A;
+        font-size: 18px;
+        font-family: Roboto;
+        font-weight: normal;
+        line-height: 1.3;
+        padding-bottom: 10px;
+    }
+
+    .main2 h5 {
+        text-align: center;
+        color: #4A4A4A;
+        font-size: 14px;
+        font-family: Roboto;
+        font-weight: normal;
+        line-height: 1.4;
+        padding-bottom: 30px;
+    }
+}
+
+/********************************* MAIN 2 - TABLET ************************************/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .main2 {
+        width: 40%;
+        float: left;
+        margin-top: 2rem;
+        height: 550px;
+    }
+    
+    .main2 .feature1 {
+        margin-top: 2rem;
+        margin-left: 32px;
+        height: 65%;
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    
+    .main2 h2 {
+        text-align: center;
+        color: #4A4A4A;
+        font-size: 36px;
+        font-family: Roboto;
+        font-weight: bold;
+        line-height: 1.2;
+    }
+    
+    .main2 h5 {
+        text-align: center;
+        color: #4A4A4A;
+        font-size: 16px;
+        font-family: Roboto;
+        font-weight: normal;
+        line-height: 1.5;
+    }
+}
+
+/********************************* MAIN 2 - DESKTOP ************************************/
+@media only screen and (min-width: 1024px) {
+    .main2 {
+        width: 50%;
+        float: left;
+        margin-top: 4rem;
+    }
+
+    .main2 .feature1 {
+        margin-top: 2rem;
+        margin-left: 32px;
+        height: 65%;
+        width: 90%;
+        margin-bottom: 40px;
+    }
+
+    .main2 h2 {
+        text-align: center;
+        color: #4A4A4A;
+        font-size: 36px;
+        font-family: Roboto;
+        font-weight: bold;
+        line-height: 1.2;
+    }
+
+    .main2 h5 {
+        text-align: center;
+        color: #4A4A4A;
+        font-size: 16px;
+        font-family: Roboto;
+        font-weight: normal;
+        line-height: 2.5;
+    }
+
+}
+
+/********************************* MAIN 3 - MOBILE ************************************/
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    .main3 {
+        width: 100%;
+        background-color: #fafafa;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* This will center the image horizontally */
+    }
+
+    .main3 .feature2 {
+        margin-top: 2rem;
+        width: 95%;
+        margin-bottom: 20px;
+    }
+
+    .main3 h2 {
+        text-align: center;
+        color: #4A4A4A;
+        font-size: 18px;
+        font-family: Roboto;
+        font-weight: normal;
+        line-height: 1.3;
+        padding-bottom: 10px;
+    }
+
+    .main3 h5 {
+        text-align: center;
+        color: #4A4A4A;
+        font-size: 14px;
+        font-family: Roboto;
+        font-weight: normal;
+        line-height: 1.4;
+        padding: 0px 20px;
+        padding-bottom: 30px;
+    }
+}
+
+/********************************* MAIN 3 - TABLET ************************************/
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .main3 {
+        width: 45%;
+        float: right;
+        margin-top: 2rem;
+        height: 550px;
+    }
+    
+    .main3 .feature2 {
+        margin-top: 2rem;
+        margin-left: 32px;
+        height: 65%;
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    
+    .main3 h2 {
+        text-align: center;
+        color: #4A4A4A;
+        font-size: 36px;
+        font-family: Roboto;
+        font-weight: bold;
+        line-height: 1.2;
+    }
+    
+    .main3 h5 {
+        text-align: center;
+        color: #4A4A4A;
+        font-size: 16px;
+        font-family: Roboto;
+        font-weight: normal;
+        line-height: 1.3;
+    }
+    
+    .pic-split {
+        height: 653px;
+        width: 80%;
+        margin: 0 auto;
+        background-color: #fafafa;
+    }
+}
+
+/********************************* MAIN 3 - DESKTOP ************************************/
+@media only screen and (min-width: 1024px) {
+
+    .main3 {
+        width: 50%;
+        float: right;
+        margin-top: 4rem;
+    }
+
+    .main3 .feature2 {
+        margin-top: 2rem;
+        margin-left: 32px;
+        height: 65%;
+        width: 90%;
+        margin-bottom: 40px;
+    }
+
+    .main3 h2 {
+        text-align: center;
+        color: #4A4A4A;
+        font-size: 36px;
+        font-family: Roboto;
+        font-weight: bold;
+        line-height: 1.2;
+    }
+
+    .main3 h5 {
+        text-align: center;
+        color: #4A4A4A;
+        font-size: 16px;
+        font-family: Roboto;
+        font-weight: normal;
+        line-height: 2.5;
+    }
+
+}
+
+
+
+/********************************* MAIN 2 & 3 *********************************************/
+@media only screen and (min-width: 1024px) {
+
+    .pic-split {
+        height: 653px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+}
+
+/********************************* MAIN 4 - MOBILE ************************************/
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    .main4 {
+        background-color: #4A4A4A;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        text-align: center; /* Centers inline-block elements */
+    }
+
+    .main4 h1 {
+        text-align: center;
+        color: white;
+        opacity: 100%;
+        font-size: 24px;
+        font-family: Roboto;
+        font-weight: normal;
+        line-height: 1.4;
+        padding-top: 4rem;
+    }
+
+    .main4 h5 {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        font-family: Roboto;
+        font-weight: normal;
+        padding-top: 10px;
+        line-height: 1.4;
+    }
+
+    .main4 .filters {
+        display: inline-block; /* Keeps it centered with text-align */
+        margin: 40px 1% 64px 1%;
+    }
+
+    .main4 .filters img {
+        width: 32%;
+        height: auto;
+    }
+    
+    .main4 .filters .third {
+        display: none;
+    }
+}
+
+/********************************* MAIN 4 - TABLET ************************************/
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .main4 {
+        background-color: #4A4A4A;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        text-align: center; /* Centers inline-block elements */
+    }
+
+    .main4 h1 {
+        text-align: center;
+        color: white;
+        opacity: 100%;
+        font-size: 24px;
+        font-family: Roboto;
+        font-weight: normal;
+        line-height: 1.4;
+        padding-top: 4rem;
+    }
+
+    .main4 h5 {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        font-family: Roboto;
+        font-weight: normal;
+        padding-top: 10px;
+        line-height: 1.4;
+    }
+
+    .main4 .filters {
+        display: inline-block; /* Keeps it centered with text-align */
+        margin: 40px 1% 64px 1%;
+    }
+
+    .main4 .filters img {
+        width: 24%;
+        height: auto;
+    }
+    
+    .main4 .filters .third {
+        display: inline-block;
+    }
+}
+
+/********************************* MAIN 4 - DESKTOP ************************************/
+@media only screen and (min-width: 1024px) {
+
+    .main4 {
+        background-color: #4A4A4A;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 46px;
+        text-align: center; /* Centers inline-block elements */
+    }
+
+    .main4 h1 {
+        text-align: center;
+        color: white;
+        opacity: 100%;
+        font-size: 36px;
+        font-family: Roboto;
+        font-weight: bold;
+        line-height: 1.4;
+        padding-top: 4rem;
+    }
+
+    .main4 h5 {
+        width: 40%;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        font-family: Roboto;
+        font-weight: normal;
+        padding-top: 10px;
+        line-height: 1.4;
+    }
+
+    .main4 .filters {
+        display: inline-block; /* Keeps it centered with text-align */
+        margin: 80px 1% 64px 1%;
+    }
+
+    .main4 .filters img {
+        width: 24.5%;
+        height: auto;
+    }
+
+}
+
+
+/********************************* MAIN 5 - MOBILE ************************************/
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    .main5 {
+        margin: 0 auto;
+        margin: 80px 20px 40px 20px;
+        text-align: center;
+    }
+
+    .main5 h3 {
+        display: inline-block;
+        font-family: Palatino ;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: normal;
+        letter-spacing: 3px;
+        color: #4A4A4A;
+        line-height: 1.6;
+    }
+
+    .main5 img {
+        margin-top: 30px;
+    }
+}
+
+/********************************* MAIN 5 - TABLET ************************************/
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .main5 {
+        margin: 80px 20px 40px 20px;
+    }
+
+    .main5 h3 {
+        display: inline-block;
+        font-family: Palatino ;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: normal;
+        letter-spacing: 3px;
+        color: #4A4A4A;
+        line-height: 1.6;
+        float: left;
+        width: 70%;
+    }
+
+    .main5 img {
+        margin-top: 30px;
+        margin-left: 10%;
+        width: 125px;
+    }
+}
+
+/********************************* MAIN 5 - DESKTOP ************************************/
+@media only screen and (min-width: 1024px) {
+
+    .main5 {
+        margin: 0 auto;
+        margin: 80px;
+        text-align: center;
+    }
+
+    .main5 h3 {
+        display: inline-block;
+        font-family: Palatino ;
+        font-size: 30px;
+        font-style: italic;
+        font-weight: normal;
+        letter-spacing: 3px;
+        color: #4A4A4A;
+        line-height: 1.1
+    }
+
+    .main5 img {
+        margin-left: 30px;
+    }
+
+}
+/********************************* FOOTER - MOBILE ************************************/
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+    footer {
+        height: 62px;
+        background-color: #9B9B9B;
+        width: 100%;
+        display: flex;
+        justify-content: space-between; /* This will place the elements on opposite sides */
+        align-items: center; /* Vertically centers the items */
+    }
+
+    footer p {
+        align-content: center;
+        font-size: 13px;
+    }
+
+    footer .copyright-text-footer {
+         /* float: left; this doesnt usually work if it is a flex item */
+        margin-left: 20px;
+    }
+
+    footer .footer-design-text {
+        /* float: right; this doesnt usually work if it is a flex item */
+        margin-right: 20px;
+    }
+}
+
+/********************************* FOOTER - TABLET ************************************/
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    footer {
+        height: 62px;
+        background-color: #9B9B9B;
+        width: 100%;
+        display: flex;
+        justify-content: space-between; /* This will place the elements on opposite sides */
+        align-items: center; /* Vertically centers the items */
+    }
+
+    footer p {
+        align-content: center;
+        font-size: 13px;
+    }
+
+    footer .copyright-text-footer {
+         /* float: left; this doesnt usually work if it is a flex item */
+        margin-left: 20px;
+    }
+
+    footer .footer-design-text {
+        /* float: right; this doesnt usually work if it is a flex item */
+        margin-right: 20px;
+    }
+}
+
+/********************************* FOOTER - DESKTOP ************************************/
+@media only screen and (min-width: 1024px) {
+
+    footer {
+        height: 62px;
+        background-color: #9B9B9B;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer p {
+        align-content: center;
+        margin-left: 32px;
+    }
+    
+    .footer-design-text {
+        display: inline-block;
+        margin-right: 32px;
+    }
+
+}
